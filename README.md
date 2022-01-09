@@ -34,7 +34,7 @@ TODO: Image
 
 ### System Layer
 
-As actors don't contain any game logic, they should leave changing the game state to the system layer. Similar to the endpoint layer mentioned in the [Application Architecture](#application-architecture]) section, actors can listen to replicated property changes using `ReplicatedUsing`, but should delegate all method invocations to the system layer immediately.
+As actors don't contain any game logic, they should leave changing the game state to the system layer. Similar to the endpoint layer mentioned in the [Application Architecture](#application-architecture) section, actors can listen to replicated property changes using `ReplicatedUsing`, but should delegate all method invocations to the system layer immediately.
 
 These systems don't have to be actors; they don't even need to be `UObject`s, which makes them really easy to construct and test. Clearly, systems can become quite complex, with the need to split them up further into multiple classes (e.g. navigation systems). 
 
