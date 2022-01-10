@@ -46,9 +46,16 @@ Ideally, systems should be as isolated as possible. However, that might not alwa
 
 This article is still in a very early state. Here's what I'm planning to do during the next months to further refine the ideas presented herein:
 
-* Explain how all of this relates to existing engine functionality (e.g. game framework, CharacterMovementComponent)
+* Explain how all of this relates to existing engine functionality
+    * exposing to blueprints/UI (both directions)
+    * RPCs
+    * game mode, player controller, pawn, camera
+    * input handling
+    * spawning actors
+    * ticking & tick groups
+    * collision
+    * animation, AI, ...
 * Provide a detailed example based on some popular Unreal Engine template (e.g. ShooterGame)
-* Check for other important Unreal Engine aspects I need to consider as well
 * Evaluate the possibility of having system blueprints to expose game functionality to designers, and how to test these
 * Listen to your feedback!
 
